@@ -1,0 +1,175 @@
+[
+  {
+    "release_file": "experiments/icassp2027/audio_data.py",
+    "original_module": "experiments.icassp2027.audio_data",
+    "source_sha256": "0126cbef7abad2e95b38aec68e1e7e4aa0cf7ff4ef35c68a240313be3efd3914",
+    "changes": "none",
+    "release_sha256": "0126cbef7abad2e95b38aec68e1e7e4aa0cf7ff4ef35c68a240313be3efd3914"
+  },
+  {
+    "release_file": "experiments/icassp2027/boundary_residual.py",
+    "original_module": "experiments.icassp2027.boundary_residual",
+    "source_sha256": "88fdbaf64cea1e6f6753876e38057e6abfd5b4a5490f7ac3fc4acc0eb9deb848",
+    "changes": "none",
+    "release_sha256": "88fdbaf64cea1e6f6753876e38057e6abfd5b4a5490f7ac3fc4acc0eb9deb848"
+  },
+  {
+    "release_file": "experiments/icassp2027/build_adil_fixed4_manifest.py",
+    "original_module": "experiments.icassp2027.build_adil_fixed4_manifest",
+    "source_sha256": "6baef62f1382bbeec568fcb8ff2a4c36c62e26a46db4d35535fcf8212ab91f37",
+    "changes": "none",
+    "release_sha256": "6baef62f1382bbeec568fcb8ff2a4c36c62e26a46db4d35535fcf8212ab91f37"
+  },
+  {
+    "release_file": "experiments/icassp2027/build_dcase_manifest.py",
+    "original_module": "experiments.icassp2027.build_dcase_manifest",
+    "source_sha256": "149a32a9add006cb2d4c3b96dc70dc16ecfbbc732b93bfdd8f05f6743b6ba15b",
+    "changes": "package-relative import",
+    "release_sha256": "661dea52957303ec75c9c63251523fb2a5cc5c40bb1a6eba8319756f22dc7ee9"
+  },
+  {
+    "release_file": "experiments/icassp2027/build_tau_manifest.py",
+    "original_module": "experiments.icassp2027.build_tau_manifest",
+    "source_sha256": "e56b730c901bd0ab0dc601992b7248bb38ad4d86bad02175b8f8252fb4645086",
+    "changes": "none",
+    "release_sha256": "e56b730c901bd0ab0dc601992b7248bb38ad4d86bad02175b8f8252fb4645086"
+  },
+  {
+    "release_file": "experiments/icassp2027/cache_stage_features.py",
+    "original_module": "experiments.icassp2027.cache_stage_features",
+    "source_sha256": "ffb108c273676a4bf992ade5fdc6162adb6f751202782632a3e92cf90f50f70d",
+    "changes": "none",
+    "release_sha256": "ffb108c273676a4bf992ade5fdc6162adb6f751202782632a3e92cf90f50f70d"
+  },
+  {
+    "release_file": "experiments/icassp2027/dcase_boundary_model.py",
+    "original_module": "experiments.icassp2027.dcase_boundary_model",
+    "source_sha256": "f9140312a119bab3b34b59620253bbed8d2bb23538c24bc0a30d737101793707",
+    "changes": "portable backbone import",
+    "release_sha256": "c551a922b64e307995d284c10729aa21a70894fa3c04f72ceefc0820111b6628"
+  },
+  {
+    "release_file": "experiments/icassp2027/fingerprint_manifest.py",
+    "original_module": "experiments.icassp2027.fingerprint_manifest",
+    "source_sha256": "a72fdabe3dcf337687671d6d69eef3967cd0e3cb807fb9c98b3b3fca09b35944",
+    "changes": "none",
+    "release_sha256": "a72fdabe3dcf337687671d6d69eef3967cd0e3cb807fb9c98b3b3fca09b35944"
+  },
+  {
+    "release_file": "experiments/icassp2027/make_incremental_splits.py",
+    "original_module": "experiments.icassp2027.make_incremental_splits",
+    "source_sha256": "05cf8a3281ae6de91ea91a0bb46857ce9100f7e623c197fe5ce3999ff70525d7",
+    "changes": "none",
+    "release_sha256": "05cf8a3281ae6de91ea91a0bb46857ce9100f7e623c197fe5ce3999ff70525d7"
+  },
+  {
+    "release_file": "experiments/icassp2027/make_svd_compressed_heads.py",
+    "original_module": "experiments.icassp2027.make_svd_compressed_heads",
+    "source_sha256": "19a654aaf749cd40a71ad394560228f0a2d405f3e5ee091bf319323609da8ea0",
+    "changes": "none",
+    "release_sha256": "19a654aaf749cd40a71ad394560228f0a2d405f3e5ee091bf319323609da8ea0"
+  },
+  {
+    "release_file": "experiments/icassp2027/manifest.py",
+    "original_module": "experiments.icassp2027.manifest",
+    "source_sha256": "9503719947cbda2a8a158a9891f555f82379b45dc8a4b2b0d9483345019f475b",
+    "changes": "none",
+    "release_sha256": "9503719947cbda2a8a158a9891f555f82379b45dc8a4b2b0d9483345019f475b"
+  },
+  {
+    "release_file": "experiments/icassp2027/protocol_guard.py",
+    "original_module": "experiments.icassp2027.protocol_guard",
+    "source_sha256": "4c70124e688d21d226a80dcce198b8ff9832a24388c8080285fb3872c98fd890",
+    "changes": "none",
+    "release_sha256": "4c70124e688d21d226a80dcce198b8ff9832a24388c8080285fb3872c98fd890"
+  },
+  {
+    "release_file": "experiments/icassp2027/train_cached_boundary_controls.py",
+    "original_module": "experiments.icassp2027.train_cached_boundary_controls",
+    "source_sha256": "88d5c0b3b5018440e59a52f11ef241bc63349b9dcfba24bfe9d00de569fbfdb6",
+    "changes": "none",
+    "release_sha256": "88d5c0b3b5018440e59a52f11ef241bc63349b9dcfba24bfe9d00de569fbfdb6"
+  },
+  {
+    "release_file": "experiments/icassp2027/train_cached_crossing_residual.py",
+    "original_module": "experiments.icassp2027.train_cached_crossing_residual",
+    "source_sha256": "d2e5fc9862f8f1ebce888dfa63110fa60fcc7c267a034bce0606b193e186fbff",
+    "changes": "none",
+    "release_sha256": "d2e5fc9862f8f1ebce888dfa63110fa60fcc7c267a034bce0606b193e186fbff"
+  },
+  {
+    "release_file": "experiments/icassp2027/train_cached_hcrg.py",
+    "original_module": "experiments.icassp2027.train_cached_hcrg",
+    "source_sha256": "549627d1558875cad041b8f50e3373b1ebfe707468eb5aa3db165f159c92f369",
+    "changes": "none",
+    "release_sha256": "549627d1558875cad041b8f50e3373b1ebfe707468eb5aa3db165f159c92f369"
+  },
+  {
+    "release_file": "experiments/icassp2027/train_cached_nuclear_residual.py",
+    "original_module": "experiments.icassp2027.train_cached_nuclear_residual",
+    "source_sha256": "b21ce5b4cf26694e30ad6c6f00114d518429ef7ac08ca45966fc279e91915915",
+    "changes": "none",
+    "release_sha256": "b21ce5b4cf26694e30ad6c6f00114d518429ef7ac08ca45966fc279e91915915"
+  },
+  {
+    "release_file": "experiments/icassp2027/train_cached_rank_candidates.py",
+    "original_module": "experiments.icassp2027.train_cached_rank_candidates",
+    "source_sha256": "83786aa5967aafb985006553a43d6e87cec210c6ab5752d23975dfe384254155",
+    "changes": "none",
+    "release_sha256": "83786aa5967aafb985006553a43d6e87cec210c6ab5752d23975dfe384254155"
+  },
+  {
+    "release_file": "experiments/icassp2027/train_dcase_stage.py",
+    "original_module": "experiments.icassp2027.train_dcase_stage",
+    "source_sha256": "c0168dd45bd199d74ae7c1c86b9c3e2370b0036cab2492f8682dcabc2f8c4727",
+    "changes": "none",
+    "release_sha256": "c0168dd45bd199d74ae7c1c86b9c3e2370b0036cab2492f8682dcabc2f8c4727"
+  },
+  {
+    "release_file": "experiments/icassp2027/train_source_domain.py",
+    "original_module": "experiments.icassp2027.train_source_domain",
+    "source_sha256": "0f6f0727f27ab73f6b34b592ef34b072862dcef5dc9303663d30a9e2deaac81b",
+    "changes": "none",
+    "release_sha256": "0f6f0727f27ab73f6b34b592ef34b072862dcef5dc9303663d30a9e2deaac81b"
+  },
+  {
+    "release_file": "experiments/icassp2027/validate_manifest.py",
+    "original_module": "experiments.icassp2027.validate_manifest",
+    "source_sha256": "147cea9c7c866224ba1c88799536ad01a9d673e2cff0f99013d351517924ab36",
+    "changes": "none",
+    "release_sha256": "147cea9c7c866224ba1c88799536ad01a9d673e2cff0f99013d351517924ab36"
+  },
+  {
+    "release_file": "safbm/events.py",
+    "original_module": "experiments.icassp2027.run_boundary_algorithm_upgrade",
+    "source_sha256": "bda75a483ebe78f78cef7efc8ef37f4284f795df85c15f50de377a3d77a41f9d",
+    "extracted_definitions": [
+      "class_metrics",
+      "correctness_events",
+      "split_state",
+      "update_correctness",
+      "state_metrics",
+      "enumerate_correctness_cells",
+      "feasible",
+      "cell_score",
+      "select_fixed_path",
+      "select_rank_family",
+      "gauge_weight",
+      "gauge_bias",
+      "matched_random_residual",
+      "endpoint_logits",
+      "exact_path_selection"
+    ],
+    "changes": "selected functions copied verbatim; cohort-specific orchestration omitted",
+    "release_sha256": "fcfa9be01818a1eaa6b99c42757def99f7cec56c95db59c2e48382914f88e940"
+  },
+  {
+    "release_file": "safbm/routing.py",
+    "original_module": "experiments.icassp2027.evaluate_sequential_routing",
+    "extracted_definitions": [
+      "entropy_route"
+    ],
+    "changes": "entropy_route copied verbatim; added generic zero-based sequential metric aggregation",
+    "release_sha256": "a8237745d90bd13a1f397f0737dfc0a28747f82bc6baf78d43bb4b56aa25c1e8"
+  }
+]

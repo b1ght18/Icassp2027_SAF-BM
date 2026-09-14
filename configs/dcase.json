@@ -1,0 +1,23 @@
+{
+  "dataset": "dcase",
+  "classes": 10,
+  "domains": 3,
+  "max_rank": 9,
+  "alpha": 24.0,
+  "constraint_mode": "harm",
+  "dual_learning_rate": 0.0,
+  "dual_max": 50.0,
+  "harm_slack": 0.005,
+  "feasibility_tolerance": 0.005,
+  "feasibility_restoration": "radial",
+  "radial_grid_size": 101,
+  "learning_rate": 0.003,
+  "epochs_per_rank": 100,
+  "patience": 15,
+  "batch_size": 128,
+  "growth_magnitude": 0.01,
+  "selection_tolerance": 0.5,
+  "fit_nfr_budget": 0.005,
+  "validation_nfr_budget": 0.01,
+  "seed": 1193
+}

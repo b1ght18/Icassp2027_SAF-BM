@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "safbm"
+version = "0.1.0"
+description = "Source-anchored decision boundary migration for domain-incremental audio classification"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+readme = "README.md"
+authors = [{name = "SAF-BM contributors"}]
+dynamic = ["dependencies"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[tool.setuptools.packages.find]
+include = ["safbm*", "experiments*", "examples*"]
