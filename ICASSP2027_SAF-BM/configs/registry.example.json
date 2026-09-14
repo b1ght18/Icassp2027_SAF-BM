@@ -1,8 +1,0 @@
-{
-  "source_checkpoint": "outputs/source.pth",
-  "branches": [
-    {"domain_index": 0},
-    {"domain_index": 1, "bn_checkpoint": "outputs/dcase/stage1/bn.pth", "head": "outputs/dcase/stage1/selected/head.npz"},
-    {"domain_index": 2, "bn_checkpoint": "outputs/dcase/stage2/bn.pth", "head": "outputs/dcase/stage2/selected/head.npz"}
-  ]
-}

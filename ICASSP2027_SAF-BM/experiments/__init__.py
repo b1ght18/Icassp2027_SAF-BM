@@ -1,1 +1,0 @@
-"""SAF-BM research implementation."""
