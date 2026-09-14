@@ -1,9 +1,5 @@
 # SAF-BM: Source-Anchored Feasible Boundary Migration
 
-Research code for **Rethinking Domain Adaptation: Source-Anchored Decision Boundary Migration for Domain-Incremental Audio Classification**.
-
-**Bohan Hu, Yiqiang Cai, Shengchen Li** · Xi'an Jiaotong-Liverpool University
-
 [Method](docs/method.md) · [Data preparation](docs/data.md) · [Experiment guide](docs/experiments.md) · [MIT license](LICENSE)
 
 ## Why decision boundary migration?
@@ -141,13 +137,7 @@ This release contains the framework and experiment building blocks, including bi
 If you use SAF-BM, cite the accompanying manuscript (bibliographic status: manuscript in preparation):
 
 ```bibtex
-@misc{hu2026safbm,
-  title = {Rethinking Domain Adaptation: Source-Anchored Decision Boundary Migration for Domain-Incremental Audio Classification},
-  author = {Hu, Bohan and Cai, Yiqiang and Li, Shengchen},
-  year = {2026},
-  note = {Manuscript in preparation},
-  url = {https://github.com/b1ght18/ICASSP2027_SAF-BM}
-}
+
 ```
 
 For DCASE task participation, also cite:
