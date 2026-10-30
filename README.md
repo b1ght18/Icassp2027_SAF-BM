@@ -6,13 +6,13 @@
 
 An acoustic shift can leave examples in the wrong class regions even after target normalization. Moving the classifier's boundaries can correct these errors, but can also overturn correct predictions. SAF-BM studies this trade-off in fixed target-normalized coordinates. The retained source classifier anchors every arriving domain; historical examples are not replayed.
 
-![Decision boundary migration within domain-incremental learning](docs/assets/boundary_migration.svg)
+![Decision boundary migration within domain-incremental learning](docs/assets/fig1_dil_boundary_migration.jpg)
 
 The contribution studied here is **how to control decision boundary migration**. Low-rank residuals provide a family of possible movements. Correctness events support joint selection of the movement's rank and deployed fraction under observed negative-flip budgets.
 
 ## System overview
 
-![SAF-BM architecture](docs/assets/architecture.jpg)
+![SAF-BM architecture](docs/assets/fig0_safbm_system_architecture.jpg)
 
 1. Train or load the source CNN14 and its linear classifier.
 2. Fit the arriving domain's BN on current-domain data, then freeze BN and the encoder.
